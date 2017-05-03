@@ -2,7 +2,7 @@
 
 This `npm` module provides two functions:
 - search for the paths of an array of values in a JSON object;
-- search for the paths and the common iterator of an array values in a JSON object.
+- search for the paths and the common iterator of an array of values in a JSON object.
 
 ## Usage
 ```JavaScript

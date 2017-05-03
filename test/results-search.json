@@ -1,0 +1,38 @@
+{
+  "results": [
+    {
+      "iterator": "$.persons[*]",
+      "paths": [
+        {
+          "path": "name.first",
+          "value": "pieter"
+        },
+        {
+          "path": "name.last",
+          "value": "heyvaert"
+        },
+        {
+          "path": "age",
+          "value": "26"
+        }
+      ]
+    },
+    {
+      "iterator": "$.persons[*]",
+      "paths": [
+        {
+          "path": "names[*].first",
+          "value": "pieter"
+        },
+        {
+          "path": "names[*].last",
+          "value": "heyvaert"
+        },
+        {
+          "path": "age",
+          "value": "26"
+        }
+      ]
+    }
+  ]
+}

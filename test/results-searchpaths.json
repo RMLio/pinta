@@ -1,0 +1,32 @@
+{
+  "results": [
+    [
+      {
+        "path": "$.persons[0].name.first",
+        "value": "pieter"
+      },
+      {
+        "path": "$.persons[0].name.last",
+        "value": "heyvaert"
+      },
+      {
+        "path": "$.persons[0].age",
+        "value": "26"
+      }
+    ],
+    [
+      {
+        "path": "$.persons[0].names[0].first",
+        "value": "pieter"
+      },
+      {
+        "path": "$.persons[0].names[0].last",
+        "value": "heyvaert"
+      },
+      {
+        "path": "$.persons[0].age",
+        "value": "26"
+      }
+    ]
+  ]
+}

@@ -48,4 +48,20 @@ describe('Search', function () {
     assert.equal(result.iterator, results[1].iterator, 'Iterator is incorrect.');
     assert.deepEqual(result.paths, results[1].paths, 'Paths are incorrect.');
   });
+
+  it('#3', function () {
+    let values = ['AAA'];
+    let dataObject = {
+      content: [
+        {Author: 'K. I.', title: 'AAA'},
+        {Author: 'Z. D.', title: 'BBB'}
+      ]
+    };
+
+    let result = search(dataObject, values);
+    //console.log(result);
+
+    assert.equal(result.iterator, results[2].iterator, 'Iterator is incorrect.');
+    assert.deepEqual(result.paths, results[2].paths, 'Paths are incorrect.');
+  });
 });

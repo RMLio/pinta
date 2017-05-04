@@ -33,6 +33,15 @@
           "value": "26"
         }
       ]
+    },
+    {
+      "iterator": "$.content[*]",
+      "paths": [
+        {
+          "path": "title",
+          "value": "AAA"
+        }
+      ]
     }
   ]
 }

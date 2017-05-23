@@ -4,7 +4,11 @@
 
 let jsonpath = require('jsonpath');
 let winston = require('winston');
-winston.level = 'debug';
+winston.level = 'info';
+
+function setLogLevel(level) {
+  winston.level = level;
+}
 
 function search(dataObject, values) {
   let iterator = '';
@@ -169,5 +173,6 @@ function searchPaths(dataObject, values) {
 
 module.exports = {
   iteratorAndPaths: search,
-  paths: searchPaths
+  paths: searchPaths,
+  setLogLevel: setLogLevel
 };

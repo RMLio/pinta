@@ -1,6 +1,6 @@
 # pinta-json
 
-This `npm` module provides two functions:
+This `npm` module provides two core functions:
 - search for the paths of an array of values in a JSON object;
 - search for the paths and the common iterator of an array of values in a JSON object.
 
@@ -53,6 +53,13 @@ result = pinta.iteratorAndPaths(dataObject, values);
 *   ]
 * }
 **/
+
+/**
+* set the log level
+* default: 'error'
+* options: 'error', 'warn', 'info', 'verbose', 'debug', and 'silly' 
+*/
+pinta.setLogLevel('debug');
 ```
 
 ## License

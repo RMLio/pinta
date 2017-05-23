@@ -4,7 +4,7 @@
 
 let jsonpath = require('jsonpath');
 let winston = require('winston');
-winston.level = 'info';
+winston.level = 'error';
 
 function setLogLevel(level) {
   winston.level = level;

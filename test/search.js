@@ -64,4 +64,18 @@ describe('Search', function () {
     assert.equal(result.iterator, results[2].iterator, 'Iterator is incorrect.');
     assert.deepEqual(result.paths, results[2].paths, 'Paths are incorrect.');
   });
+
+  it('#4', function () {
+    let values = [ '0'];
+    let dataObject = { persons:
+      [ { ID: 0, name: 'John', age: '30', friend_id: 1 },
+        { ID: 1, name: 'James', age: '25', friend_id: 2 } ] }
+    ;
+
+    let result = search(dataObject, values);
+    //console.log(result);
+
+    assert.equal(result.iterator, results[3].iterator, 'Iterator is incorrect.');
+    assert.deepEqual(result.paths, results[3].paths, 'Paths are incorrect.');
+  });
 });

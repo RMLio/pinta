@@ -42,6 +42,15 @@
           "value": "AAA"
         }
       ]
+    },
+    {
+      "iterator": "$.persons[*]",
+      "paths": [
+        {
+          "path": "ID",
+          "value": "0"
+        }
+      ]
     }
   ]
 }

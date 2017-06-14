@@ -14,6 +14,7 @@ function search(dataObject, values) {
   let iterator = '';
 
   let valuesAndPaths = _searchPaths(dataObject, values);
+  //console.log(valuesAndPaths);
   let paths = valuesAndPaths.map(function (value) {
     return value.path;
   });
@@ -125,9 +126,9 @@ function searchValue(dataObject, value, path) {
         result = searchValue(currentObject, value, currentPath);
       } else {
         //console.log(value + ' ' + currentObject);
-        if (currentObject === value) {
+        if ('' + currentObject === value) {
           result = currentPath;
-          //console.log(result);
+          //console.log(`result = ${result}`);
         } else {
           //console.log('no match');
         }

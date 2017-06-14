@@ -1,7 +1,7 @@
 {
-  "name": "pinta-json",
+  "name": "pinta",
   "version": "0.0.1",
-  "description": "Search for the iterator and paths in a JSON object.",
+  "description": "Search for the iterator and paths in hierarchical data.",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec"

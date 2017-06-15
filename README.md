@@ -1,6 +1,6 @@
 # pinta
 
-Pinta is a JavaScript library provides two core functions:
+Pinta is a JavaScript library that provides two core functions:
 - search for the paths of an array of values in a JSON object;
 - search for the paths and the common iterator of an array of values in a JSON object.
 

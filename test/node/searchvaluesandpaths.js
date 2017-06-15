@@ -7,7 +7,7 @@ let assert = require('chai').assert;
 let search = require('../../index.js').json.searchValuesAndPaths;
 
 describe('searchValuesAndPaths', function () {
-  it.only('#1', function () {
+  it('#1', function () {
     let dataObject = {
       persons: [
         {

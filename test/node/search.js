@@ -1,6 +1,8 @@
 /**
- * Created by pheyvaer on 03.05.17.
+ * Created by Pieter Heyvaert.
+ * Ghent University - imec - IDLab
  */
+
 
 let assert = require('chai').assert;
 let search = require('../../index.js').json.iteratorAndPaths;

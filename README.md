@@ -9,8 +9,10 @@ Pinta is available for Node.js and the browser.
 ## Usage
 
 ### Node.js
+
+#### JSON
 ```JavaScript
-let pinta = require('pinta');
+let pinta = require('pinta').json;
 
 //search for paths
 let values = ['pieter', 'heyvaert', '26'];

@@ -4,7 +4,7 @@
   "description": "Search for the iterator and paths in hierarchical data.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive --reporter spec"
+    "test": "mocha $(find test -name '*.js' -not -path '*/browser/*')"
   },
   "author": "Pieter Heyvaert <pheyvaer.heyvaert@ugent.be> (https://pieterheyvaert.com)",
   "license": "UNLICENSED",

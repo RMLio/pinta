@@ -3,7 +3,7 @@
  */
 
 let assert = require('chai').assert;
-let search = require('../index.js').paths;
+let search = require('../index.js').json.paths;
 let results = require('./results-searchpaths.json').results;
 
 describe('SearchPaths', function () {

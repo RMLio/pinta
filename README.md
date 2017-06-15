@@ -1,4 +1,4 @@
-# pinta
+# Pinta
 
 Pinta is a JavaScript library that provides two core functions:
 - search for the paths of an array of values in a JSON object;
@@ -69,6 +69,6 @@ pinta.setLogLevel('debug');
 ### Browser
 
 ## License
-The pinta library is written by [Pieter Heyvaert](https://pieterheyvaert.com/research/).
+The Pinta library is written by [Pieter Heyvaert](https://pieterheyvaert.com/research/).
 
 This code is copyrighted by [Ghent University – imec](http://idlab.ugent.be/) and released under **TODO**.

@@ -1,6 +1,6 @@
 {
   "name": "pinta",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Search for the iterator and paths in hierarchical data.",
   "main": "index.js",
   "scripts": {

@@ -65,7 +65,7 @@ result = pinta.iteratorAndPaths(dataObject, values);
 * default: 'error'
 * options: 'error', 'warn', 'info', 'verbose', 'debug', and 'silly' 
 */
-pinta.setLogLevel('debug');
+pinta.logger.setLogLevel('debug');
 ```
 
 ### Browser

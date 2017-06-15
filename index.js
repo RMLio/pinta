@@ -3,5 +3,6 @@
  */
 
 module.exports = {
-  json: require('./lib/json.js')
+  json: require('./lib/json.js'),
+  logger: require('./lib/logger.js')
 };

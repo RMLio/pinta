@@ -9,11 +9,13 @@
   "author": "Pieter Heyvaert <pheyvaer.heyvaert@ugent.be>",
   "license": "UNLICENSED",
   "devDependencies": {
+    "browserify": "^14.4.0",
     "chai": "^3.5.0",
     "mocha": "^3.3.0"
   },
   "dependencies": {
     "jsonpath": "^0.2.11",
     "winston": "^2.3.1"
-  }
+  },
+  "repository": "https://git.datasciencelab.ugent.be/pheyvaer/pinta"
 }

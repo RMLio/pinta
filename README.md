@@ -1,12 +1,16 @@
-# pinta-json
+# pinta
 
-This `npm` module provides two core functions:
+Pinta is a JavaScript library provides two core functions:
 - search for the paths of an array of values in a JSON object;
 - search for the paths and the common iterator of an array of values in a JSON object.
 
+Pinta is available for Node.js and the browser.
+
 ## Usage
+
+### Node.js
 ```JavaScript
-let pinta = require('pinta-json');
+let pinta = require('pinta');
 
 //search for paths
 let values = ['pieter', 'heyvaert', '26'];
@@ -62,7 +66,9 @@ result = pinta.iteratorAndPaths(dataObject, values);
 pinta.setLogLevel('debug');
 ```
 
+### Browser
+
 ## License
 The pinta library is written by [Pieter Heyvaert](https://pieterheyvaert.com/research/).
 
-This code is copyrighted by [Ghent University – imec](http://idlab.ugent.be/) and released under the [MIT license](http://opensource.org/licenses/MIT).
+This code is copyrighted by [Ghent University – imec](http://idlab.ugent.be/) and released under **TODO**.

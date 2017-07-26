@@ -70,7 +70,7 @@ pinta.logger.setLogLevel('debug');
 
 ### Browser
 
-## License
+## Copyright
 The Pinta library is written by [Pieter Heyvaert](https://pieterheyvaert.com/research/).
 
-This code is copyrighted by [Ghent University – imec](http://idlab.ugent.be/) and released under **TODO**.
+This code is copyrighted by [Ghent University – imec](http://idlab.ugent.be/).

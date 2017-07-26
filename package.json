@@ -18,5 +18,5 @@
     "jsonpath": "^0.2.11",
     "winston": "^2.3.1"
   },
-  "repository": "https://git.datasciencelab.ugent.be/pheyvaer/pinta"
+  "repository": "https://github.com/RMLio/pinta"
 }
